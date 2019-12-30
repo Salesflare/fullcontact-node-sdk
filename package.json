@@ -1,5 +1,5 @@
 {
-  "name": "fullcontact-node-sdk",
+  "name": "@salesflare/fullcontact-node-sdk",
   "version": "1.2.0",
   "description": "NodeJS SDK for FullContact APIs",
   "main": "lib/fullcontact.js",
@@ -9,10 +9,10 @@
     "docs:md": "./node_modules/.bin/jsdoc2md --files lib/fullcontact.js lib/apis/enrich/** > docs.md",
     "prepublish": "npm test && npm run docs:md"
   },
-  "homepage": "https://github.com/fullcontact/fullcontact-node-sdk",
+  "homepage": "https://github.com/Salesflare/fullcontact-node-sdk",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fullcontact/fullcontact-node-sdk.git"
+    "url": "git://github.com/Salesflare/fullcontact-node-sdk.git"
   },
   "bugs:": "https://github.com/fullcontact/fullcontact-node-sdk/issues",
   "keywords": [
