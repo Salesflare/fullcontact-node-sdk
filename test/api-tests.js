@@ -29,3 +29,12 @@ describe('API', () => {
     assert.equal(instance.userAgent, userAgent);
   });
 });
+
+describe('API', () => {
+  it('should replace fullResponse', () => {
+    const returnFullResponse = true;
+    const instance = new API({ returnFullResponse });
+
+    assert.equal(instance.returnFullResponse, returnFullResponse);
+  });
+});

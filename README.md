@@ -22,7 +22,8 @@ JSDocs can be found in [docs.md](docs.md)
 ```
 var fullcontact = require('fullcontact-node-sdk')({
 	apiKey: '<API Key>',
-	userAgent: '<AppName/Version>'
+	userAgent: '<AppName/Version>',
+  returnFullResponse: true | false // Optional: when true, will return the full HTTP response, when false just the body. Defaults to false
 });
 ```
 
